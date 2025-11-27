@@ -8,8 +8,7 @@
         "build": "tsc && vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-        "typecheck": "tsc --noEmit -p tsconfig.app.json",
-        "postinstall": "mkdir -p src/assets && cp node_modules/sql.js/dist/sql-wasm.wasm ./src/assets/sql-wasm.wasm"
+        "typecheck": "tsc --noEmit -p tsconfig.app.json"
     },
     "dependencies": {
         "@supabase/supabase-js": "^2.57.4",
